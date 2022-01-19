@@ -1,0 +1,73 @@
+{
+    "numero":"081.012",
+    "cnpj":"91.130.371/0001-43",
+    "listaProdutos": [
+        {
+            "nome":"Camisa do Vasco",
+            "preco": 120
+        },
+        {
+            "nome":"Camisa do Flamengo",
+            "preco": 150
+        },
+        {
+            "nome":"Camisa Retrô",
+            "tipos":[
+                {"original":true, "preco":170},
+                {"original":false, "preco":120}
+            ]
+        }
+    ],
+    "valorTotal": 390
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "numeroNotaFiscal": "012554124512",
+    "cnpjEmissor": "066.121.124.550/11",
+    "listaDeProdutos": {
+        "produtoA": {
+            "preco": 15.99,
+            "fruta": {
+                "nome":"maça",
+                "tipo": "pera"
+            }
+        },
+        "produtoB": "5,99" {
+            "massas": "massa para lasanha" {
+                "marca": "maria"
+            }
+        },
+    },
+    "valorTotalDaNota": "21,98"
+}
+
+
+/*
+    Número da nota,
+    CNPJ do emissor
+    Lista de produtos com seus nomes e respectivos preços
+    Valor total da nota
+*/
