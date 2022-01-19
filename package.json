@@ -1,0 +1,19 @@
+{
+  "name": "cadastrador-de-cpfs",
+  "version": "1.0.0",
+  "description": "Um cadastrador de CPF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CPF",
+    "validador de cpf",
+    "cadastro de cpf"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cpf": "^2.0.1"
+  }
+}
