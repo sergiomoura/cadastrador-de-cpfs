@@ -38,15 +38,5 @@
             "Fernando",
             "Silvia Fiacador"
         ]
-    },
-    {
-        "nome": "João",
-        "cpf": "444.444.444-44",
-        "casado": false,
-        "filhos": [
-            "Maria",
-            "Fernando",
-            "Silvia Fiacador"
-        ]
     }
 ]
