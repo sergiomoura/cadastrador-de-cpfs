@@ -6,10 +6,12 @@ const fs = require('fs');
 const nome = process.argv[2];
 const cpf = process.argv[3];
 const casado = (process.argv[4] == "1");
-const filhos = process.argv.slice(5);
 
 // Passo 2: Criar um objeto com essas informações
 const pessoa = {nome, cpf, casado, filhos};
+
+// Passo 2.5: Alteração só para causar uma diferença!
+console.log("Yahooo!!!");
 
 // Passo 3: Adicionar o objeto criado ao array pessoas
 pessoas.push(pessoa);
@@ -18,3 +20,4 @@ pessoas.push(pessoa);
 fs.writeFileSync('pessoas.json', JSON.stringify(pessoas,null,4))
 
 // Passo 5: Mostrar o array de pessoas no dormarto de tabela
+
