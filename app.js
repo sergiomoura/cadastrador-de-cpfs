@@ -10,9 +10,6 @@ const casado = (process.argv[4] == "1");
 // Passo 2: Criar um objeto com essas informações
 const pessoa = {nome, cpf, casado, filhos};
 
-// Passo 2.5: Alteração só para causar uma diferença!
-console.log("Yahooo!!!");
-
 // Passo 3: Adicionar o objeto criado ao array pessoas
 pessoas.push(pessoa);
 
