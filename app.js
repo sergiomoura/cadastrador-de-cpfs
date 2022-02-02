@@ -1,5 +1,6 @@
 const pessoas = require('./pessoas.json');
 const fs = require('fs');
+const { removeListener } = require('process');
 
 // Passo 1: Capturar: nome, cpf, casado, filhos do terminal
 // e guardar em variáveis de mesmos nomes
@@ -18,3 +19,8 @@ pessoas.push(pessoa);
 fs.writeFileSync('pessoas.json', JSON.stringify(pessoas,null,4))
 
 // Passo 5: Mostrar o array de pessoas no dormarto de tabela
+/*
+Criar um arquivo remover.js
+Esse script deve receber um número como parâmetro
+e deve remover a pessoa da posição indicada pelo número
+*/
