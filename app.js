@@ -1,6 +1,5 @@
 const pessoas = require('./pessoas.json');
 const fs = require('fs');
-const { removeListener } = require('process');
 
 // Passo 1: Capturar: nome, cpf, casado, filhos do terminal
 // e guardar em variáveis de mesmos nomes
