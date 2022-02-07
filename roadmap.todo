@@ -6,12 +6,12 @@
     ✔ Salvar o array modificado @done(22-02-02 10:05)
 
 Fase 1: Implementar exibição de pessoas:
-    ☐ Criar um arquivo mostrarTodos.js
-    ☐ Neste arquivo, carregar o array de pessoas
-    ☐ Exibir o array de pessoas utilizando o console.table
+    ✔ Criar um arquivo mostrarTodos.js @done(22-02-02 10:35)
+    ✔ Neste arquivo, carregar o array de pessoas @done(22-02-02 10:37)
+    ✔ Exibir o array de pessoas utilizando o console.table @done(22-02-02 10:37)
 
 Fase 2: Implementar funções para exibição de pessoas casadas:
-    ☐ Criar um arquivo mostrarCasados.js
+    ✔ Criar um arquivo mostrarCasados.js @done(22-02-02 11:12)
     ☐ Neste arquivo, carregar o array de pessoas
     ☐ Usar a função array.filter para construir um novo array somente com as casadas
     ☐ Exibir o array de pessoas casadas utilizando o console.table

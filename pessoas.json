@@ -27,7 +27,7 @@
     {
         "nome": "Wendel",
         "cpf": "888.888.888-88",
-        "casado": false,
+        "casado": true,
         "filhos": [
             "João",
             "Maria"
